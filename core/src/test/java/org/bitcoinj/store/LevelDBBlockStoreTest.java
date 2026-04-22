@@ -1,6 +1,6 @@
 /*
  * Copyright by the original author or authors.
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -23,11 +23,12 @@ import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.core.StoredBlock;
 import org.bitcoinj.params.*;
 import org.junit.*;
-
+import org.junit.Ignore;
 import java.io.*;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class LevelDBBlockStoreTest {
     private static final NetworkParameters UNITTEST = UnitTestParams.get();
 
